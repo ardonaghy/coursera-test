@@ -64,7 +64,7 @@ p {
   font-weight: black;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0px;
-  margin-bottom: 0;
+  margin-bottom: 5px;
   line-height: 1;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
