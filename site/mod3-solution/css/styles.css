@@ -101,11 +101,14 @@ p {
     margin-right: 5px;
   }
 
-/********** Medium displays **********/
-@media (min-width: 992px) {
-  {
+/********** Large displays **********/
+@media (min-width: 1200px) {
     float: left;
   }
+
+/********** Medium displays **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    float: left;
   }
 
 
@@ -155,7 +158,7 @@ p {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { 
     padding-top: 5px;
     font-size: 6vw;
   }
